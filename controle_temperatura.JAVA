@@ -9,7 +9,7 @@ public static void main(String[] args) {
     for (int i = 0;i < temperaturaC.length; i++) {
         temperaturaC[i] = IO.readln("Digite a temperatura em graus celsius: ");
 
-        if (temperaturaC[i].equals("0")) {
+        if (temperaturaC[i].equals("sair")) {
             break;
    }
     }
