@@ -2,7 +2,7 @@ import static java.lang.IO.*;
 
 
     public static void main(String[] args) {
-        String[] cadastrar = new String[1000];
+        String[] cadastrar = new String[100];
 
         for (int i = 0; i < cadastrar.length; i++) {
             cadastrar[i] = IO.readln("Qual a tarefa: ");
